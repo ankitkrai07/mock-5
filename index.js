@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.status(200).send({ msg: "This is the home page" });
+  res.status(200).send({ msg: "Welcome to masai hospital Backend" });
 });
 
 app.use("/users", userRouter);
